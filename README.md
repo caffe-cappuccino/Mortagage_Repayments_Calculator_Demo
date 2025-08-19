@@ -46,7 +46,7 @@ Mortagage\_Repayments\_Calculator\_Demo/
    ```bash
    git clone https://github.com/jheelamH/Mortagage_Repayments_Calculator_Demo.git
    cd Mortagage_Repayments_Calculator_Demo
-````
+
 
 2. Install dependencies:
 
