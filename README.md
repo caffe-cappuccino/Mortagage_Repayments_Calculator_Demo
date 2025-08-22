@@ -127,7 +127,4 @@ MIT License — free to use, share, and tweak ✨
 
 👩‍💻 *Girl-coded with coffee ☕, math 📐, and a lil’ pink aesthetic 🌸*
 
-```
 
-Chahe main ek **GitHub repo stats badge** (stars, forks, issues) bhi daal dun? 🌟
-```
