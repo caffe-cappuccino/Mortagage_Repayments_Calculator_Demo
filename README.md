@@ -50,7 +50,7 @@ Mortgage\_Repayments\_Calculator\_Demo/
    ```bash
    git clone https://github.com/jheelamH/Mortgage_Repayments_Calculator_Demo.git
    cd Mortgage_Repayments_Calculator_Demo
-````
+
 
 2. Set up environment + install deps:
 
