@@ -1,64 +1,68 @@
 
-# Mortgage Repayments Calculator
+# 🏡 Mortgage Repayments Calculator  
 
-A simple Python-based demo application for calculating mortgage repayments.  
-It allows you to input property and loan details and instantly calculates:
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)  
+![License](https://img.shields.io/badge/License-MIT-pink.svg)  
+![Status](https://img.shields.io/badge/Status-Demo%20Project-green.svg)  
+![Made With Love](https://img.shields.io/badge/Made%20with-💖%20coffee%20%26%20code-ff69b4)  
 
-- Monthly repayment amount
-- Total repayment over the loan term
-- Total interest paid
-- A payment schedule
+A simple **Python demo app** that helps you figure out your mortgage repayments ✨  
+Just enter your property + loan details, and it’ll instantly show you:  
 
----
-
-## Features
-
-- **Easy input**: Enter home value, deposit, interest rate, and loan term.
-- **Instant calculation**: Shows repayment amounts and interest details.
-- **Payment schedule**: See how your loan balance reduces over time.
-- **Accurate formula**: Uses the standard amortization method for repayment calculation.
+- 💵 Monthly repayment amount  
+- 📊 Total repayment over the loan term  
+- 💸 Total interest you’ll pay  
+- 📅 A neat payment schedule  
 
 ---
 
-## Project Structure
+## 🌟 Features  
+
+- 🔑 **Easy input**: Home value, deposit, interest rate, loan term — that’s it.  
+- ⚡ **Instant results**: See repayment + interest breakdown in seconds.  
+- 📉 **Payment schedule**: Watch your loan balance shrink over time.  
+- 🧮 **Accurate maths**: Standard amortization formula under the hood.  
+
+---
+
+## 📂 Project Structure  
 
 ```
 
-Mortagage\_Repayments\_Calculator\_Demo/
-├── app.py               # Main application logic
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
+Mortgage\_Repayments\_Calculator\_Demo/
+├── app.py               # Main app logic
+├── requirements.txt     # Dependencies
+└── README.md            # You are here
 
 ````
 
 ---
 
-## Getting Started
+## 🚀 Getting Started  
 
-### Prerequisites
+### Prerequisites  
+- Python 3.8+  
+- Virtual environment tool (`venv` recommended)  
 
-- Python 3.8 or higher
-- Virtual environment tool (`venv` recommended)
+### Installation  
 
-### Installation
-
-1. Clone the repository:
+1. Clone the repo:  
    ```bash
-   git clone https://github.com/jheelamH/Mortagage_Repayments_Calculator_Demo.git
-   cd Mortagage_Repayments_Calculator_Demo
+   git clone https://github.com/jheelamH/Mortgage_Repayments_Calculator_Demo.git
+   cd Mortgage_Repayments_Calculator_Demo
+````
 
-
-2. Install dependencies:
+2. Set up environment + install deps:
 
    ```bash
    python -m venv venv
-   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   source venv/bin/activate   # Windows: venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
 ---
 
-## Usage
+## 🖥️ Usage
 
 Run:
 
@@ -66,16 +70,16 @@ Run:
 python app.py
 ```
 
-You will be prompted to enter:
+Enter details when asked:
 
-* **Home Value** — e.g., `500000`
-* **Deposit** — e.g., `100000`
-* **Interest Rate (in %)** — e.g., `5.50`
-* **Loan Term (in years)** — e.g., `30`
+* 🏠 **Home Value** — e.g., `500000`
+* 💰 **Deposit** — e.g., `100000`
+* 📈 **Interest Rate (%)** — e.g., `5.50`
+* ⏳ **Loan Term (years)** — e.g., `30`
 
 ---
 
-## Example Output
+## 📋 Example
 
 **Input:**
 
@@ -94,13 +98,13 @@ Total Repayments: $817,616
 Total Interest: $417,616
 ```
 
-Additionally, the **Payment Schedule** is displayed, showing principal and interest components over time.
+✨ Plus, you get a full **Payment Schedule** with principal vs. interest breakdown.
 
 ---
 
-## Formula Used
+## 📐 Formula
 
-Monthly repayment is calculated using the standard loan amortization formula:
+The monthly repayment is calculated using the standard **loan amortization formula**:
 
 $$
 M = P \times \frac{r(1+r)^n}{(1+r)^n - 1}
@@ -108,19 +112,22 @@ $$
 
 Where:
 
-* $M$ = monthly repayment
-* $P$ = loan principal (home value - deposit)
-* $r$ = monthly interest rate (annual rate ÷ 12 ÷ 100)
-* $n$ = total number of monthly payments (years × 12)
+* `M` = monthly repayment
+* `P` = principal (home value - deposit)
+* `r` = monthly interest rate (annual ÷ 12 ÷ 100)
+* `n` = total months (years × 12)
 
 ---
 
-## License
+## 📜 License
 
-This project is licensed under the MIT License.
+MIT License — free to use, share, and tweak ✨
 
 ---
 
-## Author
+👩‍💻 *Girl-coded with coffee ☕, math 📐, and a lil’ pink aesthetic 🌸*
 
-**Jheelam Hossain**
+```
+
+Chahe main ek **GitHub repo stats badge** (stars, forks, issues) bhi daal dun? 🌟
+```
